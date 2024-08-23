@@ -11,9 +11,12 @@ function Body() {
                 Our commitment to quality and innovation ensures that each scoop is a delightful experience, making Frosty Delights the perfect destination for anyone seeking a sweet escape.
                 </p>
                 <div className='pl-16 pt-6'>
+                    <a href='#flav'>
                     <button className='bg-yellow-500 rounded-full w-[200px] h-[50px] text-xl text-black font-serif font-bold'>
                         Shop Flavors
                     </button>
+                    </a>
+                    
                 </div>
             </div>
             <div className=''>
