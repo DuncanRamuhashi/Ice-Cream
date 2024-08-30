@@ -10,14 +10,14 @@ function Hero(){
             </div>
             <nav className="">
                 <ul className="flex flex-col md:flex-row list-none font-serif text-xl md:text-2xl">
-                    <li className="mb-2 md:mb-0 md:mr-10">
-                        <a href="#about">About</a>
+                    <li className="mb-2 md:mb-0 md:mr-10 ">
+                        <a href="#about" className="hover:bg-yellow-500">About</a>
                     </li>
                     <li className="mb-2 md:mb-0 md:mr-10">
-                        <a href="#flav">Flavors</a>
+                        <a href="#flav" className="hover:bg-yellow-500">Flavors</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact Us</a>
+                        <a href="#contact" className="hover:bg-yellow-500">Contact Us</a>
                     </li>
                 </ul>
             </nav>
