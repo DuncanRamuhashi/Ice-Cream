@@ -2,15 +2,15 @@
 // import rateStar from './assets/rateStar.png';
 const ContactPage = () => {
   return (
-<div className="flex bg-yellow-500 items-center justify-center py-12 w-full font-serif">
-  <div className="w-1/2 flex flex-col space-y-12 px-12">
+<div className="flex flex-col space-y-20 bg-yellow-500 items-center justify-center py-12 w-full font-serif">
+  <div className="w-1/2 flex flex-col space-y-12 ">
     
-    <div className="flex flex-col space-y-4">
+    <div className="flex  flex-col space-y-4">
       <h1 className="text-black text-center text-4xl font-bold">Get in Touch</h1>
       <h2 className="text-black text-center text-lg font-medium">We will get back to you within 24 hours.</h2>
     </div>
 
-    <div className="flex space-x-8">
+    <div className="flex space-x-5">
       <div className="flex-1 space-y-3">
         <label htmlFor="first-name" className="block text-black font-semibold">First Name</label>
         <input
@@ -55,14 +55,12 @@ const ContactPage = () => {
       ></textarea>
     </div>
     
-    <button className="text-white bg-black w-full py-3 rounded hover:bg-gray-800">Send Message</button>
+    <button className="text-white bg-black w-full py-3 rounded  hover:bg-orange-950">Send Message</button>
   </div>
 
-  <div className="w-1/2 flex items-center justify-center">
-    <div className="w-1 h-96 bg-orange-950 rounded"></div>
-  </div>
+
   
-  <div className="w-1/2 flex flex-col space-y-12 px-12">
+  <div className="px-10 md:px-60 flex flex-col space-y-12 ">
     <div className="text-center space-y-4">
       <h1 className="text-black text-4xl font-bold">Customer Reviews</h1>
       <h2 className="text-black text-lg font-medium">For the love of our clients.</h2>

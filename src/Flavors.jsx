@@ -11,12 +11,12 @@ import ice4 from './assets/ice4.jpg';
 const Flavors = () => {
   return (
     <div className="flex bg-[#351a0e] items-center justify-center py-9 w-full pt-20">
-    <div className="flex w-full px-16 space-x-14">
-        <div className="w-1/4 bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
+    <div className=" flex flex-col md:flex-row w-full px-16 md:gap-10 ">
+        <div className="w-full bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
             <img
                 src={ice1}
                 alt="Choco Gelato"
-                className="h-72 w-full rounded-xl object-cover rounded-se-3xl rounded-ss-full"
+                className="h-72 w-full rounded-xl object-cover md:rounded-se-3xl md:rounded-ss-full"
             />
             <div className="text-center">
                 <h1 className="text-black text-lg font-semibold">Choco Gelato</h1>
@@ -27,11 +27,11 @@ const Flavors = () => {
             </div>
         </div>
 
-        <div className="w-1/4 bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
+        <div className="w-full bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
             <img
                 src={ice2}
                 alt="Vanilla Gelato"
-                className="h-72 w-full rounded-xl object-cover rounded-se-full rounded-ss-3xl"
+                className="h-72 w-full rounded-xl object-cover  md:rounded-se-full md:rounded-ss-3xl"
             />
             <div className="text-center">
                 <h1 className="text-black text-lg font-semibold">Vanilla Gelato</h1>
@@ -41,11 +41,11 @@ const Flavors = () => {
                 </button>
             </div>
         </div>
-        <div className="w-1/4 bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
+        <div className="w-full bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
             <img
                 src={ice3}
                 alt="Vanilla Gelato"
-                className="h-72 w-full rounded-xl object-cover rounded-se-3xl rounded-ss-full"
+                className="h-72 w-full rounded-xl object-cover md:rounded-se-3xl md:rounded-ss-full"
             />
             <div className="text-center">
                 <h1 className="text-black text-lg font-semibold">Vanilla Being</h1>
@@ -55,11 +55,11 @@ const Flavors = () => {
                 </button>
             </div>
         </div>
-        <div className="w-1/4 bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
+        <div className="w-full bg-yellow-500 shadow-lg mb-10 space-y-6 rounded-xl p-4">
             <img
                 src={ice4}
                 alt="Vanilla Gelato"
-                className="h-72 w-full rounded-xl object-cover rounded-se-full rounded-ss-3xl"
+                className="h-72 w-full rounded-xl object-cover md:rounded-se-full md:rounded-ss-3xl"
             />
             <div className="text-center">
                 <h1 className="text-black text-lg font-semibold">Banana Gelato</h1>

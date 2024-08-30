@@ -3,10 +3,10 @@ import img from './assets/pexels-sittisak-c-842235-1739347.jpg';
 
 const About = () => {
     return (
-        <div className='bg-[#351a0e]'>
-        <section className="bg-yellow-500 min-h-screen flex flex-col items-center font-serif rounded-tl-[500px] rounded-tr-[500px]">
-            <div className="flex flex-col items-center mt-8 ">
-                <div className="flex flex-wrap justify-center gap-6 py-1 font-semibold">
+        <div className='bg-[#351a0e] w-full'>
+        <section className="bg-yellow-500 min-h-screen flex flex-col items-center font-serif md:rounded-tl-[500px] md:rounded-tr-[500px]">
+            <div className="flex flex-row items-center mt-8 ">
+                <div className="grid md:grid-flow-col justify-center gap-6 py-1 font-semibold">
                     <button className="bg-yellow-400 text-white py-2 px-5 rounded-full">Vanilla</button>
                     <button className="bg-amber-800 text-white py-2 px-5 rounded-full">Choco Cookies</button>
                     <button className="bg-orange-500 text-white py-2 px-5 rounded-full">Mango</button>
@@ -21,8 +21,8 @@ const About = () => {
             </div>
 
 
-            <div className="flex flex-col md:flex-row items-center justify-center gap-1 py-60 px-4 w-[90%]">
-                <div className="w-full md:w-[40%]">
+            <div className="flex flex-col md:flex-row items-center space-y-10 justify-center gap-1 py-60 px-4 w-[90%]">
+                <div className="w-full justify-center flex md:w-[40%]">
                     <img
                         src={img}
                         alt="Example"

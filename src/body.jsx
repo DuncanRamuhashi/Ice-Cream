@@ -20,7 +20,7 @@ function Body() {
                 </div>
             </div>
             <div className=''>
-                <img src={ice} alt="Ice Cream" className='h-36 w-60  md:h-[550px] md:w-[650px] rounded-2xl object-cover' />
+                <img src={ice} alt="Ice Cream" className='h-36  md:h-[550px] md:w-[650px] rounded-2xl object-cover' />
             </div>
         </div>
     );

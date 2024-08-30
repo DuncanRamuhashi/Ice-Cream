@@ -8,7 +8,7 @@ function Hero(){
             <div className="text-2xl md:text-4xl font-serif font-bold mb-4 md:mb-0 md:mr-96">
                 Creamy
             </div>
-            <nav className="w-full">
+            <nav className="">
                 <ul className="flex flex-col md:flex-row list-none font-serif text-xl md:text-2xl">
                     <li className="mb-2 md:mb-0 md:mr-10">
                         <a href="#about">About</a>
