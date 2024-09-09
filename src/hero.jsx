@@ -9,7 +9,7 @@ function Hero(){
     return(
         <div className="bg-[#351a0e] text-white w-fulls">
     <div className="flex flex-col md:flex-row pl-4 md:pl-28 pt-8">
-    <header className="flex flex-row justify-between items-center pt-6 px-4 md:px-11">
+    <header className="flex flex-row justify-between items-center pt-6 px-4 md:px-11 md:space-x-32">
     <div className="text-2xl md:text-4xl font-serif font-bold mb-4 md:mb-0">
         Creamy
     </div>
