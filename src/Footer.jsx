@@ -8,7 +8,7 @@ const Footer = () => {
             
            
             <footer className=" p-4 text-center">
-             <p className='text-gray-200'>&copy; {year} Noluthando, Tshegofatso and Duncan. All rights reserved.</p>
+             <p className='text-gray-200'>&copy; {year} Creamy. All rights reserved.</p>
              </footer>
            
    
